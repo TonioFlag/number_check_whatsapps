@@ -80,11 +80,14 @@ El archivo `base.csv` se actualizará con:
 ### Ejecución en Escritorio
 
 1. Instala las dependencias:
+
    ```bash
    pip install -r requirements.txt
    ```
+   
 2. Coloca tu archivo `base.csv` en la carpeta del proyecto.
 3. Ejecuta el script:
+
    ```bash
    python verificador_whatsapps.py
    ```
@@ -104,8 +107,8 @@ El archivo `base.csv` se actualizará con:
 - Si la última revisión fue hace más de 6 meses, también se verifica.
 
 ### Tiempos de Procesamiento
-**Por número:** Aproximadamente 8 segundos.
-**Reconexión:** Máximo de 5 intentos, con 20 segundos por intento.
+- **Por número:** Aproximadamente 8 segundos.
+- **Reconexión:** Máximo de 5 intentos, con 20 segundos por intento.
 
 ---
 
