@@ -106,6 +106,7 @@ El archivo `base.csv` se actualizará con:
 ### Tiempos de Procesamiento
 **Por número:** Aproximadamente 8 segundos.
 **Reconexión:** Máximo de 5 intentos, con 20 segundos por intento.
+
 ---
 
 ## 🎉 Contribuciones
