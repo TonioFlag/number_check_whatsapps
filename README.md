@@ -28,7 +28,7 @@ Este script en Python utiliza **Selenium** para verificar automáticamente si lo
 │   └── `base.csv`
 │
 ├── 📂 version_google_colab
-│   ├── `verificador_whatsapps.ipynb`
+│   └── `verificador_whatsapps.ipynb`
 │
 └── `README.md`
 ```
@@ -61,11 +61,11 @@ No se requiere instalación previa. El código se ejecuta directamente en Google
 
 Un archivo llamado `base.csv` con el siguiente formato:
 
-| Móvil       | Está en Whatsapp? | Fecha       |
-|-------------|-------------------|-------------|
-| 1234567890  | Sí                | 2024-05-15  |
-| 9876543210  | No                | 2023-10-12  |
-| 1029384756  |                   |             |
+| Móvil        | Está en Whatsapp? | Fecha       |
+|--------------|-------------------|-------------|
+| 1 234567890  | Sí                | 2024-05-15  |
+| 9876543210   | No                | 2023-10-12  |
+| +1029384756  |                   |             |
 
 ### Salida generada
 
@@ -84,7 +84,7 @@ El archivo `base.csv` se actualizará con:
    ```bash
    pip install -r requirements.txt
    ```
-   
+
 2. Coloca tu archivo `base.csv` en la carpeta del proyecto.
 3. Ejecuta el script:
 
